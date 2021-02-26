@@ -8,74 +8,17 @@
 body {
     height: 100vh;
     color: #FFC105;
-    /* background-image: url(flower.svg); */
-    /* background-size: contain; */
     background: linear-gradient(90deg,  #580401  0%, #A91560 100%);
-}
-
-.sunrise {
-    transition: background 5s;
-    background: linear-gradient(90deg,  #FFC105 0%, #FF6C00 100%);
-    /* background: linear-gradient(90deg, #e15117 0%, rgba(1,54,154,0) 100%); */
-    /* background-color: #cc80AA; */
-    color: #5D1A38;
-}
-
-.sunset {
-    transition: background 5s;
-    background: linear-gradient(90deg,  #580401  0%, #A91560 100%);
-    /* background: linear-gradient(90deg,  rgba(1,54,154,0) 0%, #006293 100%); */
-    /* background-color: #01369A; */
-    color: #FFC105;
-    
-}
-
-#icon1 {
-    height: 20px;
-    position: absolute;
-    top: 10px;
-    left: 95%;
-    cursor: pointer;
-}
-
-#icon2 {
-    height: 20px;
-    position: absolute;
-    top: 25px;
-    left: 90%;
-    cursor: pointer;
-}
-
-.branch {
-    height: 100px;
-    width: auto;
-    padding: 0 20px;
-}
-
-.flipped {
-    transform: scaleX(-1);
 }
 
 div {
     height: 25vh;
     overflow: hidden;
     padding: 0 1%;
-    /* background-image: url(branch_pink.png); */
     background-size: contain;
     border-bottom: 1px solid #FFC105;
     align-items: center;
 }
-
-.divsunrise {
-    border-bottom: 1px solid #5D1A38;
-    /* transition: 1s; */
-}
-
-.divsunset {
-    border-bottom: 1px solid #FFC105;
-    /* transition: 1s; */
-}
-
 
 #sub-page div {
     height: auto;
@@ -88,16 +31,6 @@ div {
 a {
     color: #FFC105;
     text-decoration: none;
-}
-
-.linksunrise {
-    color: #5D1A38;
-    /* transition: 1s; */
-}
-
-.linksunset {
-    color: #FFC105;
-    /* transition: 1s; */
 }
 
 h1 {
@@ -191,14 +124,12 @@ li {
 
 #name {
     display: inline-block;
-    /* border-bottom: none; */
 }
 
 #descrip {
     padding-left: 20px;
     width: 25%;
     display: inline-block;
-    /* border-bottom: none; */
 }
 
 .preview {
@@ -213,8 +144,7 @@ li {
     height: auto;
     display: block;
     padding: 20px;
-    /* border-bottom: 1px solid #006293; */
-    /* border-bottom: 1px solid #FFC105; */
+    transition: 2s;
 }
 
 .show .right {
